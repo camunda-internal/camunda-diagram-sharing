@@ -395,8 +395,21 @@
 .dropzone .dz-message { font-weight: 400; }
 .dropzone .dz-message .note { font-size: 0.8em; font-weight: 200; display: block; margin-top: 1.4rem; }
 
-#my-dropzone div button {
+#my-dropzone div button.btn-success {
+	margin-top: 10px;
+}
+
+#my-dropzone div button.btn-warning {
 	margin-top: 10px;
 	background-color: #B5152B;
     border-color: #B5152B;
+}
+
+.dir {
+	width: 106px;
+    height: 120px;
+	background-image: url(../img/dir.png);
+  /* background-position-x: -38px; */
+	background-size: 120px;
+	  cursor: pointer !important;
 }
